@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+.name-font{
+    font-family: 'Courgette', cursive;
+    font-size: 34px !important;
+    color: white;
+}
+
+.page-wallpaper{
+    background: url(/images/imagensita.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.fa-color{
+    color:white;
+    font-size: 22px;
+}
+
+.wallpaper-info{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 34px;
+}
