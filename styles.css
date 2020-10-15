@@ -1,6 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a{
+    font-family: 'Source Serif Pro', serif;
+}
+
+section img{
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+section img:hover{
+    transform: scale(1.01);
+}
+
 .name-font{
     font-family: 'Courgette', cursive;
     font-size: 34px !important;
@@ -22,4 +40,24 @@
 .wallpaper-info{
     font-family: 'Source Serif Pro', serif;
     font-size: 34px;
+}
+
+#p-info{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 16px;
+}
+
+div.contact {
+    height: 300px;
+    background-image: linear-gradient(152deg, rgb(212, 91, 106),rgb(255, 224, 123));
+    clip-path: polygon(0 0, 100% 35%, 100% 100%, 0% 100%);
+}
+
+div.contact p{
+    font-size: 22px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+div.contact h1{
+    font-family: 'Source Serif Pro', serif;
 }
